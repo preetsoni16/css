@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            background-color: aqua;
+            height: 100px;
+        }
+        @media (min-width:320px) and (max-width:480px) {
+            .one-1{
+                background-color: red;
+                width: 100%;
+            }
+            .one-2{
+                background-color: brown;
+                width: 100%;
+            }
+            .one-3{
+                background-color: blue;
+                width: 100%;
+            }
+        }
+        @media (min-width:481px) and (max-width:769px) {
+            .one-1{
+                background-color: cadetblue;
+                width: 50%;
+            }
+            .one-2{
+                background-color: blueviolet;
+                width: 50%;
+            }
+            .one-3{
+                background-color: chartreuse;
+                width: 100%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width:770px) {
+            .one-1{
+                background-color: rebeccapurple;
+                width: 25%;
+                text-align: center;
+                padding: 25px;
+            }
+            .one-2{
+                background-color: greenyellow;
+                width: 25%;
+                column-count: 2;
+                column-gap: 25px;
+            }
+            .one-3{
+                background-color: goldenrod;
+                width: 50%;
+                column-count: 2;
+                column-gap: 25px;
+            }
+            .main{
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="main">
+        <div class="one-1">
+            <ul type="none">
+                <li>fgh</li>
+                <li>fjadgf</li>
+                <li>lfbjv</li>
+            </ul>
+        </div>
+        <div class="one-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, facilis labore exercitationem vero ut reprehenderit animi illo magni earum minus voluptatum recusandae fugit inventore totam natus incidunt nihil? Excepturi, cumque?
+        </div>
+        <div class="one-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aut suscipit voluptatibus fuga, animi molestiae illo magnam, quo temporibus distinctio commodi doloremque, minima quod laborum culpa eum quidem voluptas. Doloribus.
+        </div>
+    </div>
+</body>
+</html>

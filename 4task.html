@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: linear-gradient(to right, lightblue, lightgreen);
+        }
+        h1{
+            text-align: center;
+            padding-top: 30px;
+            color: black;
+        }
+        .title{
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .subtitle{
+            text-align: center;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .box{
+            background-color: rgb(22, 52, 53);
+            width: 500px;
+            height: 400px;
+            margin-left: 425px;
+            border-radius: 25px;
+        }
+        .form{
+            padding-top: 20px;
+            margin-left: 24px;
+        }
+        input[type=text]{
+            border: none;
+            padding: 8px;
+            width: 450px;
+            border-radius: 5px;
+        }
+        input[type=number]{
+            border: none;
+            padding: 8px;
+            width: 450px;
+            border-radius: 5px;
+        }
+        .form-1{
+            margin-top: 12px;
+        }
+        .form-2{
+            margin-top: 22px;
+        }
+        label{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .forget{
+            display: flex;
+            margin-top: 25px;
+        }
+        .forget-1{
+            margin-left: 195px;
+            color: rgb(105, 203, 228);
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input[type=checkbox]{
+            margin-left: 28px;
+        }
+        .login{
+            margin-left: 25px;
+            margin-top: 22px;
+        }
+        h3{
+            color: white;
+            background-color: black;
+            width: 440px;
+            height: 35px;
+            border-radius: 5px;
+            padding: 4px;
+            text-align: center;
+        }
+        .footer{
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 16px;
+            text-align: center;
+            color: white;
+        }
+        .new::after{
+            content: "Register here!";
+            color: rgb(105, 203, 228);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login Form using HTMl and CSS</h1>
+    </div>
+    <div class="box">
+        <div class="title">Sign in</div>
+        <div class="subtitle">Sign in with your username and password</div>
+        <div class="form">
+        <form action="">
+            <div class="form-1">
+            <label for="">Your Username</label><br>
+            <input type="text" name="" id="" maxlength="20" placeholder="Enter username"><br>
+            </div>
+            <div class="form-2">
+            <label for="">Your password</label><br>
+            <input type="number" name="" id="" maxlength="6" placeholder="Enter Password">
+            </div>
+        </form>
+        </div>
+        <div class="forget">
+            <input type="checkbox" name="" id="">
+            <label for="">Remember me</label>
+            <p class="forget-1">Forget password?</p>
+        </div>
+        <div class="login">
+            <h3>Login</h3>
+        </div>
+        <div class="footer">
+            <p class="new">Not a Member?</p>
+        </div>
+    </div>
+</body>
+</html>

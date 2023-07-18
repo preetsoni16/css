@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            background-color: rgb(22, 91, 148);
+        }
+
+        .header {
+            height: 100px;
+            display: flex;
+        }
+
+        .logo {
+            height: inherit;
+            font-size: 40px;
+            color: white;
+            width: 20%;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
+        .link {
+            height: inherit;
+            width: 80%;
+        }
+
+        ul {
+            list-style: none;
+            font-size: 20px;
+            color: white;
+            margin-left: 20px;
+        }
+
+        li {
+            float: left;
+            padding-left: 50px;
+            padding-top: 18px;
+        }
+
+        li:hover {
+            color: rgb(93, 182, 212);
+        }
+
+        #box {
+            border: 2px solid lightblue;
+            align-items: center;
+            padding: 12px;
+            margin-left: 55px;
+            border-radius: 25px;
+        }
+
+        .main {
+            display: flex;
+            margin-left: 140px;
+        }
+
+        .formate{
+            margin-top: 150px;
+        }
+
+        .button {
+            display: flex;
+            padding: 35px;
+        }
+
+        p {
+            background-color: rgb(87, 186, 219);
+            padding: 7px;
+            font-size: 19px;
+            border-radius: 25px;
+            color: white;
+        }
+        i {
+            padding: 28px;
+            color: white;
+        }
+
+        .text {
+            font-size: 55px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .small {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(125, 186, 248);
+            padding-top: 12px;
+        }
+
+        .img{
+            margin-left: 50px;
+        }
+
+        .footer {
+            height: 100px;
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- head -->
+    <div class="header">
+        <div class="logo">ARSHA</div>
+        <div class="link">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Team</li>
+                <li>Drop Down</li>
+                <li>Contact</li>
+                <li id="box">Get Started</li>
+            </ul>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="main">
+        <div class="formate">
+            <div class="text">Better solutions For<br>Your Business</div>
+            <div class="small">We are team of talented designers making<br>website with Bootstrap</div>
+            <div class="button">
+                <p>Get Started</p><i class="fa-regular fa-circle-play">Watch Video</i>
+            </div>
+        </div>
+        <div class="img">
+            <img src="marketing.png" alt="marketing" width="600px" height="600px">
+        </div>
+    </div>
+</body>
+
+</html>

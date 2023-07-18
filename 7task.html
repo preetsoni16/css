@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            top: 0;
+            background-color: white;
+            position: sticky;
+            z-index: 1;
+        }
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 80px;
+        }
+        .fa-circle{
+            color: red;
+        }
+        .fa-square{
+            color: skyblue;
+        }
+        .nav-bar{
+           margin-left: 75px;
+           font-size: 20px; 
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            margin-left: 60px;
+        }
+        li:first-child{
+            background-color: blue;
+            padding: 45px 10px;
+            color: white;
+        }
+        li:hover{
+            background-color: blue;
+            color: white;
+            padding: 45px 10px;
+        }
+        .fa-magnifying-glass{
+            font-size: 20px;
+            background-color: red;
+            padding: 10px;
+            border-radius: 50px;
+            color: white;
+        }
+        .search{
+            margin-left: 200px;
+            font-size: 20px;
+        }
+        .photo{
+            width: 100%;
+            height: 550px;
+            position: relative;
+            margin-bottom: 25px;
+        }
+        .image-writeup{
+            position: absolute;
+            left: 350px;
+            bottom: 450px;
+            font-size: 35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .image-writeup-1{
+            position: absolute;
+            left: 240px;
+            bottom: 330px;
+            width: 900px;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .image-writeup-2{
+            position: absolute;
+            left: 630px;
+            bottom: 210px;
+            background-color: orangered;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+        }
+        .image-writeup-3{
+            position: absolute;
+            top: 650px;
+            left: 650px;
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+        .card{
+            display: flex;
+            margin-top: 30px;
+        }
+        .card-1{
+            /* background-color: blue; */
+            /* width: 20px; */
+            margin-left: 200px;
+            margin-bottom: 50px;
+        }
+        .fa-laptop{
+            font-size: 55px;
+            background-color: blue;
+            padding: 25px;
+            color: white;
+            border-radius: 50%;
+            margin-left: 25px;
+        }
+        .text{
+            width: 200px;
+            margin-top: 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <i class="fa-solid fa-circle"></i>  <i class="fa-solid fa-square"></i> Your Logo
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li>Home</li>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li id="one">blog</li>
+            </ul>
+        </div>
+        <div class="search">
+            <p>search  <i class="fa-solid fa-magnifying-glass"></i></p>
+        </div>
+    </div>
+    <div class="main">
+           <div class="image">
+                <img class="photo" src="https://img.freepik.com/premium-vector/modern-city-skyline-background_77417-791.jpg?size=626&ext=jpg&ga=GA1.2.1365105573.1686244688&semt=ais" alt="image">
+                <p class="image-writeup"><b>GOOD DESIGN IS GOOD BUSINESS</b>
+                <p class="image-writeup-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio pariatur accusamus voluptatem consequuntur deleniti tempora aliquid veritatis, aut quidem quo natus! Ut odit hic sit libero a amet, blanditiis harum.</p>
+                </p>
+                <p class="image-writeup-2">LEARN MORE</p>
+           </div> 
+    </div>
+    <div>
+        <p class="image-writeup-3">Our-services</p>
+    </div>
+    <div class="card">
+        <div class="card-1">
+            <i class="fa-solid fa-laptop"></i>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sequi non distinctio eveniet maxime deserunt expedita, eius nobis ducimus veniam explicabo cupiditate fugiat repellat inventore saepe laborum dignissimos officia harum.</p>
+        </div>
+        <div class="card-1">
+            <i class="fa-solid fa-laptop"></i>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sequi non distinctio eveniet maxime deserunt expedita, eius nobis ducimus veniam explicabo cupiditate fugiat repellat inventore saepe laborum dignissimos officia harum.</p>
+        </div>
+        <div class="card-1">
+            <i class="fa-solid fa-laptop"></i>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sequi non distinctio eveniet maxime deserunt expedita, eius nobis ducimus veniam explicabo cupiditate fugiat repellat inventore saepe laborum dignissimos officia harum.</p>
+        </div>
+    </div>
+</body>
+</html>
